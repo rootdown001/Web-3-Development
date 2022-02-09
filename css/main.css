@@ -10,12 +10,12 @@ body > div {
   font-size: 2rem;
 }
 
-* {
+/** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-
+*/
 
   
   
@@ -107,7 +107,7 @@ a {
 	color: #fff;
   }
 
-/*#welcome-section {
+#welcome-section {
 	padding-left: 160px;
 	padding-right: 160px;
 	padding-top: 80px;

@@ -4,9 +4,22 @@
 
    --> 
    <link rel="stylesheet" type="text/css" href="../Web-3-Development/css/main.css"/>
-
-</head>
-
+   </head>
+   <style>
+    #myProgress {
+      width: 100%;
+      background-color: #ddd;
+    }
+    
+    #myBar {
+        width: 10%;
+  height: 30px;
+  background-color: #04AA6D;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
+  color: white;
+    }
+    </style>
 
 <body>
 
@@ -54,11 +67,14 @@
             <p>Review - Preparation</p>
 
             
- 
+
   
                     <ol
                     >
                         <li>Sync Atom</li>
+                        <div id="myProgress">
+                            <div id="myBar">10%</div>
+                        </div>
                         <li>Get Github dialed in</li>
                         <li>Setup Discord</li>
                         <li>Setup backups</li>
@@ -154,6 +170,8 @@
             </ol>
         </section> 
     </div>
+
+ 
 
 
 </body>
